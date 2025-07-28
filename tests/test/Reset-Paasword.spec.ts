@@ -15,7 +15,7 @@ test('Redirected to the Password Reset Page', async ({ page }) => {
 test('Reset password link sent with valid email', async ({ page }) => {
   await page.locator('#forgot-password_email').fill('malkiis283@gmail.com');
   await page.getByRole('button', { name: /reset password/i }).click();
-  // Add assertion if any success message appears here.
+ 
   console.log("Test case passed - Reset password link was sent to the email!!");
 });
 
