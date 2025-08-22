@@ -50,8 +50,8 @@ test('Test checkbox is clickable', async ({ page }) => {
 });
 
 
-//await expect(page.locator('div.greeting')).toContainText('Hi Ushani');
+
         
-//await expect(page.getByText('/Hi Ushani/i')).toBeVisible();
+
 
 

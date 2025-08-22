@@ -16,9 +16,9 @@ test('Verify tooltip', async ({ page }) => {
   console.log("Tooltip test passed");
 });
 
-test('Verify project drawer UI elements', async ({ page }) => {
+test('open Project Drawer', async ({ page }) => {
   await login(page);
   const homepage = new Homepage(page);
   await homepage.openCreateProjectDrawer();
-  console.log("Drawer test passed");
+  console.log("Drawer open test passed");
 });
