@@ -13,7 +13,7 @@ test('Verify tooltip', async ({ page }) => {
   await login(page);
   const homepage = new Homepage(page);
   await homepage.verifyTooltips();
-  console.log("Tooltip test passed");
+  console.log("Tooltip test has been passed");
 });
 
 test('open Project Drawer', async ({ page }) => {
