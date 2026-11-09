@@ -20,5 +20,5 @@ test('open Project Drawer', async ({ page }) => {
   await login(page);
   const homepage = new Homepage(page);
   await homepage.openCreateProjectDrawer();
-  console.log("Drawer open test passed");
+  console.log("Drawer open test and test case passed");
 });
