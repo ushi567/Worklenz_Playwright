@@ -13,12 +13,19 @@ test('Verify tooltip', async ({ page }) => {
   await login(page);
   const homepage = new Homepage(page);
   await homepage.verifyTooltips();
-  console.log("Tooltip test passed");
+  console.log("Tooltip test has been passed");
 });
 
 test('open Project Drawer', async ({ page }) => {
   await login(page);
   const homepage = new Homepage(page);
   await homepage.openCreateProjectDrawer();
-  console.log("Drawer open test passed");
+  console.log("Drawer open test and test case passed So I need to test the drawer elements");
+});
+
+test('open Project Drawer', async ({ page }) => {
+  await login(page);
+  const homepage = new Homepage(page);
+  await homepage.openCreateProjectDrawer();
+  console.log("Drawer open test and test case passed So I need to test the drawer elements");
 });
