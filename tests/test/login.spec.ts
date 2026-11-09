@@ -57,7 +57,13 @@ test('Test checkbox is clickable', async ({ page }) => {
   await expect(checkbox).toBeChecked();
 });
 
-
+// Test Case 5: Checkbox is Clickable
+test('Test checkbox is clickable', async ({ page }) => {
+  await page.goto(baseURL);
+  const checkbox = page.locator('#login_remember');
+  await checkbox.check(); // or .click()
+  await expect(checkbox).toBeChecked();
+});
         
 
 
